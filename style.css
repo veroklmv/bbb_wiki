@@ -1,0 +1,165 @@
+body,html {
+  font: 14px/1.4 'Open Sans', arial, sans-serif;
+  background: #FFF;
+}
+
+ul { 
+  margin: 0px auto 0;
+  margin-top: 20px;
+  padding: 0; 
+  list-style: none; 
+  display: table;
+  width: 200px;
+  text-align: center;
+}
+li { 
+  display: table-cell; 
+  position: relative; 
+  padding: 10px 0;
+}
+a {
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.10em;
+  
+  display: inline-block;
+  padding: 10px 8px;
+  position: relative;
+}
+a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #000;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+@media screen and (max-height: 300px) {
+	ul {
+		margin-top: 40px;
+	}
+}
+
+.table1{
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tide1 {
+  width: 50%;
+}
+.tide2 {
+  width: 50%;
+}
+.tide3 {
+  width: 50%;
+  vertical-align: top;
+}
+.tide4{
+  width: 50%;
+  vertical-align: bottom;
+}
+.tide5{
+  width: 50%;
+  vertical-align: bottom;
+  padding-left: 30px;
+}
+th{
+  text-align: center;
+  padding-top: 40px;
+  font-size: 19px;
+}
+
+.table2 {
+  width: 700px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table3 {
+  width: 400px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+marquee {
+  font-size: 18px;
+  background-color: #000;
+  color: #FFF;
+  padding: 6px 0;
+  width: calc(100%);
+  flex-shrink: 0;
+}
+
+div {
+  border: 1px solid black;
+  width: 80%;
+}
+
+#welcome{
+  margin-left: 10px;
+}
+
+.text1 {
+  text-align: justify;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.text2 {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  text-align: justify;
+  font-size: 15px;
+}
+
+.text3{
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.10em;
+}
+
+.text4 {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  text-align: justify;
+  font-size: 15px;
+  color: #FFF;
+}
+
+.text5 {
+  text-align: center;
+  color: #636363
+}
+
+#biu{
+  align: right;
+  width: 300px;
+  height: 410px;
+  object-fit: cover;
+}
+
+#bib{
+  align: right;
+  width: 300px;
+  height: 410px;
+  object-fit: cover;
+}
+
+#cover{
+  align: right;
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
